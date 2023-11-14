@@ -9,9 +9,9 @@
         "server": "nodemon backend/server",
         "client": "npm start --prefix frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
-        "build": "npm run build:client && npm run build:server",
+        "build": "npm run build:client && npm run build",
         "build:client": "npm install --prefix frontend && npm run build --prefix frontend",
-        "build:server": "npm install --prefix backend"
+        
     },
     "author": "onedotall",
     "license": "ISC",
