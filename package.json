@@ -10,7 +10,7 @@
         "client": "npm start --prefix frontend",
         "dev": "concurrently \"npm run server\" \"npm run client\"",
         "build": "npm run build:client",
-        "build:client": "npm install --prefix frontend && npm run build --prefix frontend",
+        "build:client": "npm install --prefix frontend && npm run build --prefix frontend"
         
     },
     "author": "onedotall",
